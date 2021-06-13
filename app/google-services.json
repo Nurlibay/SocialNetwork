@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "952614195847",
+    "project_id": "socialnetwork-394b9",
+    "storage_bucket": "socialnetwork-394b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952614195847:android:0680d3c58cb7bde4785e22",
+        "android_client_info": {
+          "package_name": "uz.texnopos.socialnetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952614195847-11mt57ll2f1kgd8876jv1nuo1msfkdib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG4MEMIvkKydBlfEhSDXXINrsLy7PnPqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952614195847-11mt57ll2f1kgd8876jv1nuo1msfkdib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
