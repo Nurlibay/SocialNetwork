@@ -1,4 +1,4 @@
-package uz.texnopos.socialnetwork
+package uz.texnopos.socialnetwork.ui.sign
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import uz.texnopos.socialnetwork.MainActivity
 import uz.texnopos.socialnetwork.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {
