@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.add.AddPostFragment">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etPostTheme"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="@dimen/margin_standard"
+        android:layout_marginEnd="@dimen/margin_standard"
+        android:background="@drawable/et_shape"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingStart="@dimen/margin_standard"
+        android:paddingTop="@dimen/margin_standard"
+        android:paddingEnd="@dimen/margin_standard"
+        android:hint="@string/post_theme_"
+        android:gravity="start|top"
+        android:inputType="text"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etPostText"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="@dimen/margin_standard"
+        android:layout_marginEnd="@dimen/margin_standard"
+        android:background="@drawable/et_shape"
+        app:layout_constraintTop_toBottomOf="@id/etPostTheme"
+        android:paddingStart="@dimen/margin_standard"
+        android:paddingTop="@dimen/margin_standard"
+        android:paddingEnd="@dimen/margin_standard"
+        android:hint="@string/write_your_text_here"
+        android:gravity="start|top"
+        android:lines="7"
+        android:maxLines="7"
+        android:inputType="textImeMultiLine"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etPostText"
+        android:layout_marginStart="@dimen/margin_standard"
+        android:layout_marginEnd="@dimen/margin_standard"
+        android:layout_marginTop="30dp"
+        android:text="@string/send"
+        android:textSize="18sp"
+        />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="64dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SocialNetwork">
-        <activity android:name=".RegisterActivity"></activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name=".ui.comment.adding.AddCommentActivity"></activity>
+        <activity android:name=".ui.comment.CommentActivity" />
+        <activity android:name=".ui.sign.RegisterActivity" />
+        <activity android:name=".ui.sign.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
